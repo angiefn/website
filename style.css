@@ -1,0 +1,135 @@
+html {
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    background: rgb(238, 238, 238);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+h2 {
+    text-align: center;
+    padding-top: 10px;
+}
+/* navigation */
+.navigation {
+    padding: 5px 0 5px 0;
+    text-align: center;
+    line-height: 32px;
+    position: relative; 
+}
+
+.navigation li {
+    display: inline-block;
+    padding: 0 10px 0 10px;
+    position: flex;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 8px;
+    font-variant: small-caps;
+}
+
+.navigation a:hover {
+    color: rgb(124, 124, 124)
+}
+/* the headings in all pages*/
+#wrapper {
+    max-width: 9000px;
+    margin: 10;
+    background-color: #D1C0A8;
+    padding: 50px;
+    align-items: center;
+    text-align:center;
+    color: rgb(238, 238, 238);
+}
+/* small intro in home page */
+.sec1 p{
+    padding: 0 0 10px 0;
+    text-align: center;
+    font-size: 13px;
+    margin: 0 10px 0 10px;
+}
+
+/* buttons in home page*/
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    padding: 0 30px 10px 30px;
+    margin: 10px;
+}
+
+button {
+    text-align: center;
+    width: 80px;
+    height: 35px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(214, 215, 216); 
+    font-family: 'Quicksand', sans-serif;
+    font-size: 13px;
+    font-variant: small-caps;
+    text-decoration: none;
+    letter-spacing: 1px;
+    margin: 10px;
+}
+
+button a {
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    padding: 70px 0; 
+}
+
+button:hover {
+    background-color: rgb(193, 196, 197);
+}
+/* footers in all pages */
+footer {
+    background: rgb(196, 195, 195);
+    padding: 10px;
+    margin-top: auto;
+}
+
+footer p {
+    font-size: 12px;
+}
+
+/* bio in about page*/
+
+.bio {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.bio p {
+    font-size: 13px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 10%;
+    padding: 10px;
+  }
+  
+
+.img-angie {
+    height: 350px;
+    padding: 20px 10px 0 40px;
+    padding-bottom: 0px;
+    margin: 40px;
+    position: static;
+    box-sizing: content-box;
+    display: block;}
+
+.designs {
+    margin: 30px;
+    align-items: center;
+    justify-content: center; 
+}
